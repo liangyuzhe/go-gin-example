@@ -3,14 +3,13 @@ package v1
 import (
 	"net/http"
 
-
+	"github.com/Unknwon/com"
 	"github.com/gin-gonic/gin"
-  "github.com/Unknwon/com"
 
-	"github.com/EDDYCJY/go-gin-example/models"
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
+	"github.com/liangyuzhe/go-gin-example/models"
+	"github.com/liangyuzhe/go-gin-example/pkg/e"
+	"github.com/liangyuzhe/go-gin-example/pkg/setting"
+	"github.com/liangyuzhe/go-gin-example/pkg/util"
 )
 
 //获取多个文章标签

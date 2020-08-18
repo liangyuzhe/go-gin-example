@@ -1,9 +1,10 @@
-module github.com/EDDYCJY/go-gin-example
+module github.com/liangyuzhe/go-gin-example
 
 go 1.14
 
 require (
 	github.com/360EntSecGroup-Skylar/excelize v1.3.1-0.20180527032555-9e463b461434 // indirect
+	github.com/liangyuzhe/go-gin-example v0.0.0-20200505102242-63963976dee0
 	github.com/PuerkitoBio/purell v1.1.1-0.20180310210909-975f53781597 // indirect
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/astaxie/beego v1.12.2 // indirect
@@ -15,7 +16,7 @@ require (
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/gomodule/redigo v2.0.1-0.20180401191855-9352ab68be13+incompatible // indirect
-	github.com/jinzhu/gorm v1.9.15
+	github.com/jinzhu/gorm v1.9.16
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/lib/pq v1.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -35,10 +36,10 @@ require (
 )
 
 replace (
-	github.com/EDDYCJY/go-gin-example/conf => ./pkg/conf
-	github.com/EDDYCJY/go-gin-example/middleware => ./middleware
-	github.com/EDDYCJY/go-gin-example/models => ./models
-	github.com/EDDYCJY/go-gin-example/pkg/setting => ./pkg/setting
-	github.com/EDDYCJY/go-gin-example/routers => ./routers
-	github.com/EDDYCJY/go-gin-example/routers/api => ./routers/api
+	github.com/liangyuzhe/go-gin-example/conf => ./pkg/conf
+	github.com/liangyuzhe/go-gin-example/middleware => ./middleware
+	github.com/liangyuzhe/go-gin-example/models => ./models
+	github.com/liangyuzhe/go-gin-example/pkg/setting => ./pkg/setting
+	github.com/liangyuzhe/go-gin-example/routers => ./routers
+	github.com/liangyuzhe/go-gin-example/routers/api => ./routers/api
 )
