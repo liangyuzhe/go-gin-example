@@ -3,8 +3,8 @@ package v1
 import (
 	"net/http"
 
-	"github.com/Unknwon/com"
 	"github.com/gin-gonic/gin"
+	"github.com/unknwon/com"
 
 	"github.com/liangyuzhe/go-gin-example/models"
 	"github.com/liangyuzhe/go-gin-example/pkg/e"
